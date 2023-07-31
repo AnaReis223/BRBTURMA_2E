@@ -71,3 +71,19 @@
     color: var(--branco);
     text-decoration: none;
 }
+
+.mais__vendidos{
+    background-color: var(--branco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    height: 40px;
+    color: var(--laranja);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.estrelinhas{
+    padding: 0.5em 0.5em 0.5em 0;
+}
