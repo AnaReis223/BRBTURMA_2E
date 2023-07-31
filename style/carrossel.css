@@ -66,4 +66,8 @@
 
 .botões__ancora{
     background-color: var(--laranja);
+    padding: 1em 2.2em;
+    font-weight: 700;
+    color: var(--branco);
+    text-decoration: none;
 }
