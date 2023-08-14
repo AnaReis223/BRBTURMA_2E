@@ -9,10 +9,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="style.css">
+    
     <!-- Primeiro link do corrassel -->
+
     <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
     
+    <link rel="stylesheet" href="style.css">
+    <title>AluraBooks</title>
 </head>
 
     <body>
@@ -48,10 +51,11 @@
                 <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
             </div>
         </header>
+
         <section class="banner">
             <h2 class="banner__titulo">Já sabe por onde começar?</h2>
             <p class="banner__texto">Encontre em nossa estante o que você precisa para o seu desenvolvimento</p>
-            <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?"></iput>
+            <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?"></input>
         </section>
 
         <section class="carrossel">
@@ -59,7 +63,7 @@
 
             <div class="swiper">
             <div class="swiper-pagination"></div>
-            
+
             <div class="swiper-wrapper">
                 <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt="Livro sobre ApacheKafka"></div>
                 <div class="swiper-slide"><img src="img/Liderança.svg" alt="Livro sobre liderança"></div>
@@ -68,12 +72,11 @@
                 <div class="swiper-slide"><img src="img/Portugol.svg" alt="Livro sobre Portugol"></div>
                 <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt="Livro sobre Acessibilidade"></div>
 
-                
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
             </div>
 
-            <div class="swiper-button-prev"></div>
-
-            
         </section>
 
         <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
@@ -109,11 +112,12 @@
             </div>
         </div>
 
-        <h2 class="carrossel__titulo">Mais Vendidos</h2>
+        <section class="carrossel">
+           <h2 class="carrossel__titulo">Mais Vendidos</h2>
 
             <div class="swiper">
             <div class="swiper-pagination"></div>
-            
+
             <div class="swiper-wrapper">
                 <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt="Livro sobre ApacheKafka"></div>
                 <div class="swiper-slide"><img src="img/Liderança.svg" alt="Livro sobre liderança"></div>
@@ -122,10 +126,11 @@
                 <div class="swiper-slide"><img src="img/Portugol.svg" alt="Livro sobre Portugol"></div>
                 <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt="Livro sobre Acessibilidade"></div>
 
-                
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
             </div>
 
-            
         </section>
 
         <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
@@ -186,16 +191,16 @@
                 </li>
                 <li class="tópicos__item">
                     <a href="#" class="tópicos__link">OO</a>
-                    <li class="tópicos__item">
-                        <a href="#" class="tópicos__link">Java</a>
+                <li class="tópicos__item">
+                    <a href="#" class="tópicos__link">Java</a>
                 </li>
             </ul>
         </section>
     
-        <section class=contato>
+        <section class="contato">
             <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
             <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros</p>
-            <input type="text" placeholder="Cadastre sei e-mail" class="contato__email">
+            <input type="text" placeholder="Cadastre seu e-mail" class="contato__email">
         </section>
 
         <hr />
